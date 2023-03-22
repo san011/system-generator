@@ -1,0 +1,24 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator 2017.2                 C:/xilinx/Vivado/2017.2
+Matlab 9.2.0.538062 (R2017a)            C:\Program Files\MATLAB\R2017a
+Vivado 2017.2                           C:/xilinx/Vivado/2017.2
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: Sysgen license checkout failed.
+ XILINXD_LICENSE_FILE = C...
+     Block: Unspecified
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  Unspecified
+
+Details:
+Sysgen license checkout failed.
+ XILINXD_LICENSE_FILE = C:/xilinx/Vivado/2017.2/data/sysgen/hwcosim_compiler/pp_ethernet
+ Environment variable LM_LICENSE_FILE is not set.
+ License search path: C:\.Xilinx;C:\xilinx\Vivado\2017.2\data\sysgen\hwcosim_compiler\pp_ethernet;C:\xilinx\Vivado\2017.2\data\ipcore_licenses
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,40 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator 2017.2                 C:/xilinx/Vivado/2017.2
+Matlab 9.2.0.538062 (R2017a)            C:\Program Files\MATLAB\R2017a
+Vivado 2017.2                           C:/xilinx/Vivado/2017.2
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: Illegal Parameterization 
+     Block: 'QMO_tay/Y/-y + y||x|-4|'
+Error 0002: Illegal Parameterization 
+     Block: 'QMO_tay/Y/sin(z)/z - 1/6(z^3)+1/120(z^5)-1/5040(z^7)'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'QMO_tay/Y/-y + y||x|-4|'
+
+Details:
+The output port width is computed to be 290 bits. The output width
+cannot exceed 256 bits.
+Either use behavioral HDL mode or ensure that the output port
+width is less than 257 bits for Addsub implementation in device Fabric.
+Error occurred during "Rate and Type Error Checking".
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'QMO_tay/Y/sin(z)/z - 1/6(z^3)+1/120(z^5)-1/5040(z^7)'
+
+Details:
+The output port width is computed to be 257 bits. The output width
+cannot exceed 256 bits.
+Either use behavioral HDL mode or ensure that the output port
+width is less than 257 bits for Addsub implementation in device Fabric.
+Error occurred during "Rate and Type Error Checking".
+
+--------------------------------------------------------------------------------
